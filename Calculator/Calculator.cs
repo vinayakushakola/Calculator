@@ -13,6 +13,12 @@ namespace Calculator
             Console.WriteLine("Addition of {0} + {1} = {2}", num1, num2, sum);
         }
 
+        public void Sub(int num1, int num2)
+        {
+            int diff = num1 - num2;
+            Console.WriteLine("Subtraction of {0} - {1} = {2}", num1, num2, diff);
+        }
+
         // Created a Addition method
         //public void Add()
         //{
