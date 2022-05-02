@@ -19,7 +19,7 @@ namespace Calculator
             int num2 = Convert.ToInt32(num);
 
             objCalc.Addition(num1, num2);
-            objCalc.Sub(30, 12);
+            objCalc.Sub(12, 30);
         }
     }
 }
