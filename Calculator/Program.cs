@@ -21,6 +21,7 @@ namespace Calculator
             objCalc.Addition(num1, num2);
             objCalc.Sub(num1, num2);
             objCalc.Mul(num1, num2);
+            objCalc.Div(num1, num2);
         }
     }
 }

@@ -32,6 +32,11 @@ namespace Calculator
             Console.WriteLine("Multiplication of {0} x {1} = {2}", num1, num2, num1*num2);
         }
 
+        public void Div(int num1, int num2)
+        {
+            Console.WriteLine("Division of {0} / {1} = {2}", num1, num2, num1 / num2);
+        }
+
         // Created a Addition method
         //public void Add()
         //{
