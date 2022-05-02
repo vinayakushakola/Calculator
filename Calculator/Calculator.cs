@@ -12,6 +12,7 @@ namespace Calculator
             int sum = num1 + num2;
             Console.WriteLine("Addition of {0} + {1} = {2}", num1, num2, sum);
         }
+
         public void Sub(int num1, int num2)
         {
             int diff = 0;
@@ -24,6 +25,11 @@ namespace Calculator
                 diff = num2 - num1;
             }
             Console.WriteLine("Subtraction of {0} - {1} = {2}", num1, num2, diff);
+        }
+
+        public void Mul(int num1, int num2)
+        {
+            Console.WriteLine("Multiplication of {0} x {1} = {2}", num1, num2, num1*num2);
         }
 
         // Created a Addition method
